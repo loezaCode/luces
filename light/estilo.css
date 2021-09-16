@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    /*background-color: red;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(../light/img/foco.png);
+    background-size: contain;
+    
+
+
+
+}
+.contenedor.active{
+    background-image: url(../light/img/ON.png);
+}
+.foco{
+    width: 70px;
+    height: 70px;
+    /*background-color: blue;*/
+    margin: 340px auto;
+    
+    background-image: url(../light/img/boton.png);
+    background-size: contain;
+    
+    
+}
